@@ -15,7 +15,6 @@ print("My name is {name} and I am {age}" .format(name=name, age=age))
 print(f'My name is {name} and I am {age}')
 
 #String methods
-
 s='hello world'
 
 #Capitalize string
