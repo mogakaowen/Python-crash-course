@@ -36,3 +36,6 @@ fruits.sort()
 fruits.sort(reverse=True)
 
 print(fruits)
+
+board=[i for i in range(0,9)]
+print(board)
