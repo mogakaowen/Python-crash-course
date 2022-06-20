@@ -15,3 +15,7 @@ print(num)
 getSum= lambda num1, num2: num1 + num2
 
 print(getSum(10, 3))
+
+
+y=9//2
+print(y)
