@@ -29,3 +29,14 @@ while count <= 10:
     print(f'Count: {count}')
     count +=1
   
+#More on loops
+tab = [i for i in range(0,8)]
+def tabx():
+    x=1
+    for i in tab:
+        boundary = ' \ '
+        if x%2==0:
+            boundary=' | '
+        x+=1    
+        print(boundary)
+tabx()
