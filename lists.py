@@ -39,3 +39,11 @@ print(fruits)
 
 board=[i for i in range(0,9)]
 print(board)
+
+array = [2, 5, 6, 4, 90, 50, 3]
+r = len(array)//2
+L = array[:r]
+M = array[r:]
+
+print(r)
+print(L,M)
