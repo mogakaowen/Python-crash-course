@@ -58,4 +58,13 @@ print(s.isalnum())
 print(s.isalpha())
 
 # Is all numeric
-print(s.isnumeric())
+print(s.isnumeric()
+
+#casefold() as an Aggressive lower() Method
+text = 'groß'
+
+# convert text to lowercase using casefold()
+print('Using casefold():', text.casefold())
+
+# convert text to lowercase using lower()
+print('Using lower():', text.lower())
